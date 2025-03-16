@@ -23,7 +23,7 @@ const CartInfo = () => {
   return (
     <div className='px-4 py-2'>
                 <h1 className='text-[#e4e4e4] text-lg font-semibold tracking-wide'>Order Details</h1>
-                <div className='mt-4 overflow-y-scroll no-scrollbar h-[205px] ' ref={scrollRef}>
+                <div className='mt-4 overflow-y-scroll no-scrollbar h-[165px] ' ref={scrollRef}>
                     {cartData.length === 0 ? (
                         <p className='text-[#ababab] text-sm flex justify-center px-3 items-center h-[160px]'>Your cart is empty. start Adding items!</p>
                     ): cartData.map((item) => {
